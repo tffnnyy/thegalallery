@@ -1,0 +1,362 @@
+body {
+	font-family: Playfair Display;
+	font-size: 20px;
+	line-height: 1.3;
+	color: #000;
+}
+
+header {
+	background-color: #ffffff;
+	border-top: solid 5px #FEEA34;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header .container {
+  display:  flex;
+  justify-content:  space-between;
+  align-items:  center;
+}
+
+header .logo {
+  text-decoration: none;
+}
+
+header .h1 {
+  width: 75px;
+}
+
+p{
+	font-family: Playfair Display;
+	font-weight: 500;
+	text-decoration: none;
+	line-height:2em;
+	margin: 10px;
+	padding: 10px;
+}
+
+a {
+	font-family: Playfair Display;
+	font-weight: 500;
+	text-decoration: none;
+  color:  black;
+	margin: 10px;
+	padding: 10px;
+	transition: background-color 500ms ease;
+}
+
+.logo a {
+	background-color: green;
+	color: pink;
+}
+
+a:hover {
+  background-color: yellow;
+	font-weight: 300;
+	padding: 10px;
+	border-bottom: 3px solid #FEE3A4;
+	animation: fadeoutBg 1s; /***Transition delay 3s fadeout is class***/
+	-moz-animation: fadeoutBg 1s; /* Firefox */
+	-webkit-animation: fadeoutBg 1s; /* Safari and Chrome */
+	-o-animation: fadeoutBg 1s; /* Opera */
+}
+
+@keyframes fadeoutBg {
+    from { background-color: yellow; } /** from color **/
+    to { background-color: white; } /** to color **/
+}
+
+@-moz-keyframes fadeoutBg { /* Firefox */
+    from { background-color: yellow; }
+    to { background-color: white; }
+}
+
+@-webkit-keyframes fadeoutBg { /* Safari and Chrome */
+    from { background-color: yellow; }
+    to { background-color: white; }
+}
+
+@-o-keyframes fadeoutBg { /* Opera */
+    from { background-color: yellow; }
+    to { background-color: white; }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 0 20px;
+}
+
+.art {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.art h1 {
+	text-align: center;
+  margin: auto;
+  width: 50%;
+	/* background: yellow; */
+  padding: 10px 0 10px 0;
+}
+
+.art a, h2{
+	font-family: courier;
+	font-size: 20px;
+	text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.art p{
+	color: black;
+	font-family: Playfair Display;
+	text-align: center;
+	margin: auto;
+  width: 50%;
+	background: none;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url(ofall.jpg);
+  padding: 200px 0 200px 0;
+  background-size: cover;
+  background-position: right center;
+  margin-bottom: 40px;
+}
+
+.of-all-that-is-you {
+  background-image: url(of-all-that-is-you.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.of-all-that-is-you-mika {
+  background-image: url(./of-all/of-all-that-is-you-mika.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.forward-echo {
+  background-image: url(forward-echo.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.forward-echo-hero {
+  background-image: url(./forward-echo/20191208_EchoFwd_126_ErinaAlejo.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.forward-echo-manny {
+  background-image: url(./forward-echo/20191208_EchoFwd_022_ErinaAlejo.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.conservatory {
+  background-image: url(conservatory.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.puppet {
+  background-image: url(puppets-against-patriarchy-01.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.puppets-hero {
+  background-image: url(./puppets/puppets-against-patriarchy-01.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.puppets-img {
+  background-image: url(./puppets/015_BethLaBerge_WomensMarch_01192019_0673.jpg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.nowhere-hero {
+	background-image: url(./nowhere-fast/IMG_2873.jpeg);
+  height: 100vh;
+	background-size: cover;
+  margin-bottom: 40px;
+}
+
+.feature {
+  padding: 200px 0 200px 0;
+  background-size: cover;
+  background-position: right center;
+  margin-bottom: 40px;
+}
+
+
+.about{
+  background-color: #ffc2c2;
+	overflow: hidden;
+  width: 50%;
+}
+
+.about blockquote{
+  font-family: Georgia;
+  font-size: 24px;
+  line-height: 1.15;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 150px;
+  max-width:  400px;
+}
+
+.about{
+	overflow: hidden;
+}
+
+.about div{
+  width: 50%;
+  float: left;
+  text-align:  center;
+}
+
+.info{
+  background-color: #ffc2c2;
+}
+
+.about blockquote{
+  font-family: Georgia;
+  font-size: 24px;
+  line-height: 1.15;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 150px;
+  max-width:  400px;
+}
+
+
+
+/* The Overlay */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+  background-color: rgba(365,365,365, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #5510ff;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* RESPONSIVE MEDIA */
+@media (max-width:770px){
+  body {
+  font-size: 14px;
+	}
+}
+
+@media (max-width:480px){
+  body {
+  font-size: 14px;
+	}
+
+  .art{
+    width: 100%;
+  }
+
+  .hero{
+    width: 100%;
+  }
+}
+
+.footer {
+	margin-bottom: 40px;}
+
+	#mc_embed_signup {
+    color: #000000;
+    padding: 20px;
+        text-align: center;
+}
+
+/* Styles the header text above the inputs */
+#mc_embed_signup h2 {
+    font-size: 18px;
+    margin: 0 0 20px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 10px 0;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    width: 200px;
+}
+
+/* Styles the subscribe button */
+#mc_embed_signup .button {
+		background-color: white;
+		border-style: solid;
+    color: black;
+		padding: 5px;
+    margin: 5px auto;
+}
