@@ -45,6 +45,12 @@ a {
 	transition: background-color 500ms ease;
 }
 
+h1 {
+	font-family: Playfair Display;
+	font-size: 38;
+	text-decoration: none;
+}
+
 .logo a {
 	background-color: green;
 	color: pink;
@@ -120,12 +126,13 @@ a:hover {
 }
 
 .hero {
-  background-image: url(ofall.jpg);
+	background: yellow;
   padding: 200px 0 200px 0;
   background-size: cover;
   background-position: right center;
   margin-bottom: 40px;
 }
+
 
 .of-all-that-is-you {
   background-image: url(of-all-that-is-you.jpg);
@@ -160,6 +167,13 @@ a:hover {
   height: 100vh;
 	background-size: cover;
   margin-bottom: 40px;
+}
+
+.to-take-root{
+	background-image: url(./to-take-root/to-take-root.jpg);
+	height: 100vh;
+	background-size: cover;
+	margin-bottom: 40px;
 }
 
 .conservatory {
@@ -245,7 +259,10 @@ a:hover {
   max-width:  400px;
 }
 
-
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
 
 /* The Overlay */
 .overlay {
